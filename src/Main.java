@@ -1,5 +1,3 @@
-import java.io.IOException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -27,7 +25,5 @@ public class Main {
         } catch (ArrayIndexOutOfBoundsException error) {
             System.out.println("There aren't that many words in a string");
         }
-
-
     }
 }
